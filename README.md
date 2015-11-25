@@ -35,7 +35,7 @@ CREAR != DASHBOARD
 
 Entonces esto me pintara esto
 
-<a href="{{ asset('dashboard') }}">DASHBOARD</a>
+&lt;a href="{{ asset('dashboard') }}"&gt;DASHBOARD&lt; /a &gt;
 
 @else
 Una vez que compara el ultimo valor y si coincide lo unico que hago es pintarlo sin darle el enlace.
@@ -51,11 +51,11 @@ DASHBOARD/USUARIOS/CREAR
 pinta el HTML así
 
 
-<pre>
+<code>
 <li><a href="{{ asset('dashboard') }}">DASHBOARD</a></li>
 <li><a href="{{ asset('dashboard/usuarios') }}">USUARIOS</a></li>
 <li class="active">CREAR</li>
-</pre>
+</code>
 
 Dentro de template.blade.php
 
