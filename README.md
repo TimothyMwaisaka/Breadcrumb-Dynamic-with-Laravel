@@ -54,7 +54,9 @@ pinta el HTML así
 
 &lt;li&gt;&lt;a href="{{ asset('dashboard') }}"&gt;DASHBOARD&lt;/a&gt;&lt;/li&gt;
 
+
 &lt;li&gt;&lt;a href="{{ asset('dashboard/usuarios') }}"&gt;USUARIOS&lt;/a&gt;&lt;/li&gt;
+
 
 &lt;li class="active"&gt;CREAR&lt;/li&gt;
 
