@@ -51,11 +51,11 @@ DASHBOARD/USUARIOS/CREAR
 pinta el HTML así
 
 
-<code>
-<li><a href="{{ asset('dashboard') }}">DASHBOARD</a></li>
-<li><a href="{{ asset('dashboard/usuarios') }}">USUARIOS</a></li>
-<li class="active">CREAR</li>
-</code>
+
+&lt;li&gt;&lt;a href="{{ asset('dashboard') }}"&gt;DASHBOARD&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="{{ asset('dashboard/usuarios') }}"&gt;USUARIOS&lt;/a&gt;&lt;/li&gt;
+&lt;li class="active"&gt;CREAR&lt;/li&gt;
+
 
 Dentro de template.blade.php
 
