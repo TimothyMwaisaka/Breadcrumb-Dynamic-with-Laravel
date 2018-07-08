@@ -1,5 +1,5 @@
 <?php
-    $uri            = Route::current()->getUri();
+    $uri            = Route::current()->Uri();
     $ruta_explode   = explode('/',$uri);
     $last_array     = last($ruta_explode);
 ?>
